@@ -21,9 +21,9 @@ See [VisDrone Dataset](https://github.com/VisDrone/VisDrone-Dataset) for details
 
 | Model                                                                                | size<br><sup>(pixels) | mAP<sup>val<br>50 | mAP<sup>val<br>50-95 | Precision | Recall | Params<br><sup>(M) | FLOPs<br><sup>(B) |
 | ------------------------------------------------------------------------------------ | --------------------- | ----------------- | -------------------- | --------- | ------ | ------------------ | ----------------- |
-| [SO-Det-s](https://github.com/magic524/SO-Det/releases/download/v1.0/so-det-s.pt)    | 640                   | 40.2              | 23.7                 | 49.9      | 38.9   | **1.1**            | **16.3**          |
-| [SO-Det-m](https://github.com/magic524/SO-Det/releases/download/v1.0/so-det-m.pt)    | 640                   | 46.8              | 28.0                 | 53.7      | 46.2   | **3.5**            | **50.2**          |
-| [SO-Det-l](https://github.com/magic524/SO-Det/releases/download/v1.0/so-det-l.pt)    | 640                   | 51.7              | 32.0                 | **59.6**  | **50.0** | 13.1              | 182.1            |
+| [SO-Det-s](https://github.com/magic524/SO-Det/releases/download/v1.0/so-det-s.pt)    | 640                   | 40.2              | 23.7                 | 49.9      | 38.9   | 1.1            | 16.3         |
+| [SO-Det-m](https://github.com/magic524/SO-Det/releases/download/v1.0/so-det-m.pt)    | 640                   | 46.8              | 28.0                 | 53.7      | 46.2   | 3.5            | 50.2          |
+| [SO-Det-l](https://github.com/magic524/SO-Det/releases/download/v1.0/so-det-l.pt)    | 640                   | 51.7              | 32.0                 | 59.6  | 50.0 | 13.1              | 182.1            |
 
 - **Metrics** measured on VisDrone val set with input resolution 640x640.  
 - **Bold** indicates best-in-class for compact models (s/m versions).  
