@@ -1,6 +1,6 @@
 # SO-Det: A Cross-Layer Weighted Architecture with Channel-Optimized Downsampling and Enhanced Attention Fusion of Small Object Detector
 
-![Framework](images\mainfig1c.jpg) <!-- Add your framework diagram here -->
+![Framework](images/mainfig1c.jpg) <!-- Add your framework diagram here -->
 
 [![Paper]()]() <!-- Paper link to be updated -->
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
