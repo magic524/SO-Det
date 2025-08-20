@@ -11,11 +11,9 @@ class SODet(nn.Module):
         
         # Scale parameters
         scales = {
-            'n': [0.50, 0.25, 1024],
-            's': [0.50, 0.50, 1024],
-            'm': [0.50, 1.00, 512],
+            's': [0.50, 0.25, 1024],
+            'm': [0.50, 0.50, 1024],
             'l': [1.00, 1.00, 512],
-            'x': [1.00, 1.50, 512]
         }
         depth, width, max_channels = scales[scale]
         
@@ -81,4 +79,5 @@ class SODet(nn.Module):
         
         # Fusion and detection
         fused = self.EAFusion([x1, y2])  # 21
+
         return self.detect([fused, z1, z2])  # 22
