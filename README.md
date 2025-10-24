@@ -12,11 +12,7 @@ Official implementation of **SO-Det**, a novel architecture for small object det
 - **Enhanced Attention Fusion (EAFusion)**
 
 ## Abstract
-<<<<<<< HEAD
-###
-=======
-Small object detection has broad application prospects in remote sensing and traffic surveillance. The inherent low resolution and noise sensitivity of small objects make sampling more challenging. Existing studies mainly enhance feature fusion architectures or improve feature extraction modules, while redundancy and information loss during sampling remain critical bottlenecks. This work proposes a cross-layer weighted architecture~(CLWA) that removes the P5 scale sampling to suppress noise and incorporates weighted cross-layer connections to preserve original information. A channel-optimized downsampling~(CDown) module is introduced to mitigate information loss caused by conventional strided downsampling. It replaces strided convolution with space-to-depth~(SPD) transformation and applies ECA to weight the enriched channels from SPD. An enhanced attention fusion~(EAFusion) module is designed for the cross-layer connections, where enhanced content-guided attention~(ECGA) integrates spatial and channel attention for pixel-level attention rearrangement. This process produces dynamically weighted fusion feature maps, further enhancing the contribution of original information. Based on these designs, a three-scale small object detector~(SO-Det) is developed. Experimental results on small object datasets demonstrate that SO-Det surpasses multiple baselines and state-of-the-art methods.
->>>>>>> 568b97080103437923c9495c69bc3e48ac100e16
+
 
 ## Models
 
