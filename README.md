@@ -12,7 +12,7 @@ Official implementation of **SO-Det**, a novel architecture for small object det
 - **Enhanced Attention Fusion (EAFusion)**
 
 ## Abstract
-
+--
 
 ## Models
 
